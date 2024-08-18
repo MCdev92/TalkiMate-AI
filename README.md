@@ -58,16 +58,16 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 Create a .env file with the following content:
 
-```OPENAI_API_KEY=your_openai_api_key
-SECRET_KEY=your_secret_key```
+PENAI_API_KEY=your_openai_api_key
+SECRET_KEY=your_secret_key
 
 6. Run the application:
 
-```python app.py```
+python app.py
 
 7. Open your browser and go to:
 
-```http://127.0.0.1:4000```
+http://127.0.0.1:4000
 
 
 # Usage
