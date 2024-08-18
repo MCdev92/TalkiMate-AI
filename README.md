@@ -1,6 +1,6 @@
 # TalkiMate-AI 🧸🤖
 
-![TalkiMate AI](path/to/your/image.png)
+![TalkiMate AI](![alt text](image.png))
 
 ## Description 📖
 
