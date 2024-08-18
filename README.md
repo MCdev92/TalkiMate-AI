@@ -46,27 +46,28 @@ cd talkimate-ai
 
 3. Create and activate a virtual environment:
 
-python -m venv venv
+``` python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
 
 4. Install the dependencies:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt ```
 
 5. Set up your environment variables:
 
 Create a .env file with the following content:
 
-OPENAI_API_KEY=your_openai_api_key
-SECRET_KEY=your_secret_key
+```OPENAI_API_KEY=your_openai_api_key
+SECRET_KEY=your_secret_key```
 
 6. Run the application:
 
-python app.py
+```python app.py```
 
 7. Open your browser and go to:
 
-http://127.0.0.1:4000
+```http://127.0.0.1:4000```
 
 
 # Usage
