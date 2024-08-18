@@ -13,12 +13,12 @@
     <div class="container">
         <a href="{{ url_for('logout') }}" class="logout">Logout</a>
         <h1>TalkiMate AI</h1>
-        <p>Hi friend! Talk to me by pressing the button below!</p>
-        <button id="startRecording">Press Here</button>
+        <p>Hi friend! Talk to me by pushing the button below!</p>
+        <button id="startRecording">Push Here</button>
         <button id="stopRecording" style="display:none;">Stop Recording</button>
 
         <div id="responseSection" style="display: none;">
-            <h4>AI Response:</h4>
+            <h4>TalkiMate Response:</h4>
             <p id="responseText"></p>
             <audio id="audioPlayer" controls>
                 <source id="audioSource" src="" type="audio/mp3">
