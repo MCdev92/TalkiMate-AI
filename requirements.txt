@@ -1,0 +1,5 @@
+Flask==2.2.5
+openai-whisper
+tortoise-tts==3.0.0
+transformers
+torch

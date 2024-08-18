@@ -1,0 +1,15 @@
+# Python
+*.pyc
+__pycache__/
+
+# Environment Variables
+.env.local
+
+# Virtual Environments
+venv/
+
+# MacOS Files
+.DS_Store
+
+# Uploads and Cache
+static/uploads/

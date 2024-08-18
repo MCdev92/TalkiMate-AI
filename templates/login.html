@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to TalkiMate AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Fredoka+One&display=swap">
+</head>
+
+<body>
+    <div class="container small-container">
+        <h1>Login to TalkiMate AI</h1>
+        <form method="POST" action="{{ url_for('login') }}">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="{{ url_for('register') }}">Register here</a></p>
+    </div>
+</body>
+
+</html>

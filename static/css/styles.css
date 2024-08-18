@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/static/o1vYb-19GAsmXEDO.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden; /* Prevents unwanted scrolling */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85); /* Adjust transparency */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh; /* Adjusts to screen height for better responsiveness */
+    overflow-y: auto; /* Allows scrolling for large text blocks */
+    word-wrap: break-word; /* Ensures long words break properly */
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff6b6b;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+    word-wrap: break-word;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.logout {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #007bff;
+    font-size: 1em;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}
+
+audio {
+    margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em; /* Scales down for smaller screens */
+    }
+
+    p {
+        font-size: 1em; /* Scales down for better readability */
+    }
+
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em; /* Further scales down */
+    }
+
+    p {
+        font-size: 0.9em; /* Further scales down */
+    }
+
+    button {
+        font-size: 0.9em;
+    }
+}
