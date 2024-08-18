@@ -1,6 +1,6 @@
 # TalkiMate-AI 🧸🤖
 
-![TalkiMate AI](![alt text](image.png))
+![TalkiMate AI]![alt text](image.png)
 
 ## Description 📖
 
@@ -77,4 +77,4 @@ http://127.0.0.1:4000
 4. The AI will respond with text and audio.
 
 ## Demo
-
+![alt text](talkimate.gif)
